@@ -11,7 +11,7 @@ export default function Home() {
   const [loomUrl, setLoomUrl] = useState('');
     const [loading, setLoading] = useState(false);
     const [notification, setNotification] = useState<{ message: string; type: 'error' | 'success' | 'info' } | null>(null);  // notification message
-    const subscription_link = "https://buymeacoffee.com/abdibrokhim/e/514561"
+    const subscription_link = "https://www.patreon.com/yapsgg/membership"
 
     const downloadVideo = async () => {
         if (!loomUrl) return;
